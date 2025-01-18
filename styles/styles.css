@@ -46,23 +46,28 @@ body {
   padding: 0;
 }
 
-  /*HEADER STYLES*/
+ /*HEADER STYLES*/
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+}
+
+img {
+  margin: 10px;
+  padding: 0;
 }
 
   /*NAV STYLES*/
   nav ul {
     display: flex;
-    justify-content: space-evenly;
     padding: 0;
-    margin: 0;
+    margin: 30px 0;
   }
 
   nav ul li {
     list-style-type: none;
+    padding: 0 10px;
+    margin: 0;
   }
 
   nav ul li a {
