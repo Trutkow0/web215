@@ -46,6 +46,13 @@ body {
   padding: 0;
 }
 
+  /*HEADER STYLES*/
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
   /*NAV STYLES*/
   nav ul {
     display: flex;
