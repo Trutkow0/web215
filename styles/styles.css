@@ -87,6 +87,15 @@ header {
     color: #878563;
   }
 
+/*MAIN STYES*/
+main {
+  font-size: 1.75em;
+}
+
+h2 {
+  text-align: center;
+}
+
 /*FOOTER STYLES*/
 footer ul {
   display: flex;
