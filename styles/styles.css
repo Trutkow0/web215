@@ -1,6 +1,8 @@
 /*COLOR PALLETTE
   Background: #f8f5d5
   Font: #161508
+  Header: #d1ceb2
+  Hover: #878563
 */
 
 html {
@@ -46,14 +48,18 @@ body {
   padding: 0;
 }
 
- /*HEADER STYLES*/
+  /*HEADER STYLES*/
 header {
+  background-color: #d1ceb2;
   display: flex;
   flex-direction: row;
+  width: 100vw;
+  padding: 0 0 0 100px;
+  margin: 0;
 }
 
 img {
-  margin: 10px;
+  margin: 10px 25px 0 0;
   padding: 0;
 }
 
@@ -61,17 +67,24 @@ img {
   nav ul {
     display: flex;
     padding: 0;
-    margin: 35px 0;
+    margin: 35px 0 0 800px;
   }
 
   nav ul li {
     list-style-type: none;
     padding: 0 10px;
     margin: 0;
+    color: #161508;
+    font-size: 1.25em;
   }
 
   nav ul li a {
     text-decoration: none;
+    color: #161508;
+  }
+
+  nav ul li a:hover {
+    color: #878563;
   }
 
   /*FOOTER STYLES*/
@@ -84,8 +97,27 @@ img {
 
   footer ul li {
     list-style-type: none;
+    color: #161508;
+    font-size: 1.25em;
   }
 
   footer ul li a {
     text-decoration: none;
+    color: #161508;
+  }
+
+  footer ul li a:hover {
+    color: #878563;
+  }
+
+  footer p {
+    font-size: 1.25em;
+  }
+
+  footer p a {
+    color: #161508;
+  }
+
+  footer p a:hover {
+    color: #878563;
   }
