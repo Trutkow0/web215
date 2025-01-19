@@ -109,6 +109,11 @@ h2 {
   text-align: center;
 }
 
+p {
+  margin: 15px 200px;
+  padding: 0;
+}
+
 /*FOOTER STYLES*/
 footer {
   background-color: #d1ceb2;
