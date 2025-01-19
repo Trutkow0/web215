@@ -72,10 +72,15 @@ header {
   }
 
   /*NAV STYLES*/
+
+  nav {
+    position: relative;
+  }
+
   nav ul {
     display: flex;
     padding: 0;
-    margin: 35px 0 0 500px;
+    margin: 35px 0;
   }
 
   nav ul li {
