@@ -58,16 +58,16 @@ header {
   margin: 0;
 }
 
-img {
-  margin: 10px 25px 0 0;
-  padding: 0;
-}
+  img {
+    margin: 10px 25px 0 0;
+    padding-left: 50px;
+  }
 
   /*NAV STYLES*/
   nav ul {
     display: flex;
     padding: 0;
-    margin: 35px 0 0 800px;
+    margin: 35px 0 0 500px;
   }
 
   nav ul li {
@@ -87,37 +87,37 @@ img {
     color: #878563;
   }
 
-  /*FOOTER STYLES*/
-  footer ul {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0;
-    margin: 0;
-  }
+/*FOOTER STYLES*/
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+}
 
-  footer ul li {
-    list-style-type: none;
-    color: #161508;
-    font-size: 1.25em;
-  }
+footer ul li {
+  list-style-type: none;
+  color: #161508;
+  font-size: 1.25em;
+}
 
-  footer ul li a {
-    text-decoration: none;
-    color: #161508;
-  }
+footer ul li a {
+  text-decoration: none;
+  color: #161508;
+}
 
-  footer ul li a:hover {
-    color: #878563;
-  }
+footer ul li a:hover {
+  color: #878563;
+}
 
-  footer p {
-    font-size: 1.25em;
-  }
+footer p {
+  font-size: 1.25em;
+}
 
-  footer p a {
-    color: #161508;
-  }
+footer p a {
+  color: #161508;
+}
 
-  footer p a:hover {
-    color: #878563;
-  }
+footer p a:hover {
+  color: #878563;
+}
