@@ -52,14 +52,23 @@ body {
 header {
   background-color: #d1ceb2;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   width: 100vw;
   margin: 0;
 }
 
+  .banner {
+    display: flex;
+    padding: 0;
+    margin: 0 50px;
+  }
+
+  #banner-text {
+    margin: 25px 0;
+  }
+
   img {
-    margin: 10px 25px 0 0;
-    padding-left: 50px;
+    margin: 15px 15px 0 0;
   }
 
   /*NAV STYLES*/
