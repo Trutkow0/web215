@@ -158,6 +158,11 @@ footer p a:hover {
 }
 
 /*INTRODUCTION STYLES*/
+figure {
+  margin: auto;
+  padding: 0;
+}
+
 .intro {
   margin: auto;
   padding: 0;
