@@ -179,3 +179,8 @@ figcaption {
 .intro li {
   margin-top: 20px;
 }
+
+/*COURSE CONTRACT STYLES*/
+.contract {
+  margin: 50px 450px;
+}
