@@ -156,3 +156,9 @@ footer p a {
 footer p a:hover {
   color: #878563;
 }
+
+/*INTRODUCTION STYLES*/
+.intro {
+  margin: auto;
+  padding: 0;
+}
