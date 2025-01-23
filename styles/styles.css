@@ -118,8 +118,8 @@ p {
 footer {
   background-color: #d1ceb2;
   width: 100vw;
-  position: absolute;
-  bottom: 0;
+  position: sticky;
+  margin-top: 60px;
 }
 
 footer ul {
