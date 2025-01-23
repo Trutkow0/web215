@@ -159,11 +159,19 @@ footer p a:hover {
 
 /*INTRODUCTION STYLES*/
 figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   padding: 0;
 }
 
+figcaption {
+  margin-top: 15px;
+}
+
 .intro {
-  margin: auto;
+  margin: 50px 500px 0 500px;
   padding: 0;
 }
