@@ -175,3 +175,7 @@ figcaption {
   margin: 50px 500px 0 500px;
   padding: 0;
 }
+
+.intro li {
+  margin-top: 20px;
+}
