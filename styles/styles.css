@@ -118,7 +118,7 @@ p {
 footer {
   background-color: #d1ceb2;
   width: 100vw;
-  position: fixed;
+  position: static;
   bottom: 0;
 }
 
