@@ -118,8 +118,7 @@ p {
 footer {
   background-color: #d1ceb2;
   width: 100vw;
-  position: static;
-  bottom: 0;
+  margin-top: 50px;
 }
 
 footer ul {
