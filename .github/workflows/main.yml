@@ -58,3 +58,5 @@ jobs:
           
           local-dir: "./web215/"
           server-dir: "/htdocs/web215"
+
+          sftp-passive: true
