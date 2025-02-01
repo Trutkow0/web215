@@ -40,8 +40,8 @@ jobs:
 
       # This is a composite GitHub Action (Linux runner) 
       # for deploying repository content to remote server
-      - name: SFTP-Deploy-Action
-        uses: milanmk/actions-file-deployer@master
+      - name: Deploy Files via FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           remote-protocol: sftp
 
@@ -58,5 +58,3 @@ jobs:
           
           local-dir: "./"
           server-dir: "/htdocs/web215/"
-
-          sftp-passive: true
