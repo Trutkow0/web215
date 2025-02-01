@@ -56,7 +56,7 @@ jobs:
           # Port for SFTP access to server
           remote-port: 21
           
-          local-dir: "./web215/"
+          local-dir: "./"
           server-dir: "/htdocs/web215"
 
           sftp-passive: true
