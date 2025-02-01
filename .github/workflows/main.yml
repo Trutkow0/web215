@@ -57,6 +57,6 @@ jobs:
           remote-port: 21
           
           local-dir: "./"
-          server-dir: "/htdocs/"
+          server-dir: "/htdocs/web215/"
 
           sftp-passive: true
