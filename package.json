@@ -1,0 +1,24 @@
+{
+  "name": "web215",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trutkow0/web215.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trutkow0/web215/issues"
+  },
+  "homepage": "https://github.com/Trutkow0/web215#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.14.2"
+  }
+}

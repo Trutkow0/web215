@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+        <meta charset="utf-8">
+        <title>Timothy Rutkowski's Tenacious Raccoon | WEB215 | MERN Tutorial</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="UPDATE FOR PAGE">
+        <meta name="description" content="UPDATE FOR PAGE">
+        <meta name="author" content="Timothy Rutkowski">
+        <link rel="icon" href="images/TR_fav215.png">
+        <link rel="stylesheet" href="styles/styles.css">
+        <!-- FONT BEGIN -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<!-- FONT END -->
+        <script src="https://lint.page/kit/6664c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div data-include="components/header.html"></div>
+
+  <h1>Books</h1>
+  
+  <input id="title" placeholder="Title">
+  <input id="author" placeholder="Author">
+  <button onclick="addBook()">Add Book</button>
+
+  <table id="book-table" style="margin-top: 20px;">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+      </tr>
+    </thead>
+    <tbody id="book-list">
+      <!-- Books will be inserted here -->
+    </tbody>
+  </table>
+
+  <script src="scripts/mern-tutorial.js"></script>
+  <div data-include="components/footer.html"></div>
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>
